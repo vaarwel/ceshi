@@ -11,6 +11,7 @@ public class OrderServiceImpl implements OrderService {
 
     @Override
     public String addOrder(String orderNo) {
+        System.out.println("hahahah");
         return abstractOrderStartegy.addOrder(orderNo);
     }
 }
